@@ -79,6 +79,14 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>gvsig</id>
+            <name>gvsig</name>
+            <url>http://devel.gvsig.org/m2repo/j2se/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
 
         <!--had to add manually to 3rd-party hosted in Nexus:-->
         <!--  javax.jnlp:jnlp-api:1.5.0-->
@@ -203,8 +211,8 @@
             </dependency>
             <dependency>
                 <groupId>org.osgeo</groupId>
-                <artifactId>proj4j-support</artifactId>
-                <version>0.1.0</version>
+                <artifactId>proj4j</artifactId>
+                <version>0.1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
