@@ -147,6 +147,10 @@
             <groupId>org.osgeo</groupId>
             <artifactId>proj4j</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.jena</groupId>
+            <artifactId>jena-arq</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
